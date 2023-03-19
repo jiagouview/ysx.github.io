@@ -1,0 +1,701 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+div {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul,li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, 
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, 
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, 
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .row {
+    margin: 0;
+    padding: 0;
+}
+
+.main-wrap {
+    width: 100%;
+    .head-box {
+        height: 1000px;
+        background-image: url('../image/headbanner.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        .content-box {
+            margin: 0 auto;
+            padding-top: 41px;
+            width: 1600px;
+        }
+        .head-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .img-box {
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+        .right-title {
+            a {
+                margin: 0 60px;
+                font-size: 18px;
+                font-family: PingFang SC-Semibold, PingFang SC;
+                font-weight: 600;
+                color: #FFFFFF;
+                line-height: 21px;
+                -webkit-background-clip: text;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+        .company-slogan {
+            margin-top: 126px;
+            font-size: 72px;
+            font-family: FZLanTingHeiS-B-GB-Regular, FZLanTingHeiS-B-GB;
+            font-weight: 400;
+            color: #FFFFFF;
+            line-height: 84px;
+            -webkit-background-clip: text;
+        }
+        .company-emphasis-slogan {
+            margin-top: 25px;
+            font-size: 72px;
+            font-family: FZLanTingHeiS-B-GB-Regular, FZLanTingHeiS-B-GB;
+            font-weight: 400;
+            color: #1A3C90;
+            line-height: 84px;
+            -webkit-background-clip: text;
+        }
+        .btn-box {
+            margin-top: 50px;
+            .btn {
+                width: 200px;
+                height: 60px;
+                border-radius: 12px;
+            }
+        }
+    }
+    .middle-box {
+        height: 900px;
+        background-image: url('../image/middlebanner.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        .content-box {
+            margin: 0 auto;
+            width: 1600px;
+        }
+        .left-box {
+            .first-title {
+                margin-top: 53px;
+                height: 67px;
+                font-size: 48px;
+                font-family: PingFang SC-Regular, PingFang SC;
+                font-weight: 400;
+                color: #1A3C90;
+                line-height: 56px;
+                -webkit-background-clip: text;
+            }
+            .line {
+                margin: 20px 0;
+                width: 112px;
+                height: 5px;
+                background: #1A3C90;
+                border-radius: 2px;
+            }
+            .secend-title {
+                height: 45px;
+                font-size: 32px;
+                font-family: PingFang SC-Semibold, PingFang SC;
+                font-weight: 600;
+                color: #1A3C90;
+                line-height: 38px;
+                -webkit-background-clip: text;
+            }
+        }
+        .add-mt-32 {
+            margin-top: 32px;
+        }
+        .single-box {
+            margin-bottom: 30px;
+            padding: 55px 75px 0;
+            width: 400px;
+            height: 400px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 27px 0px rgba(72,72,72,0.05);
+            border-radius: 12px 12px 12px 12px;
+            cursor: pointer;
+            img {
+                width: 250px;
+                height: 250px;
+            }
+            .text {
+                margin-top: 30px;
+                text-align: center;
+                font-size: 18px;
+                font-family: PingFang SC-Semibold, PingFang SC;
+                font-weight: 600;
+                color: #000000;
+                line-height: 21px;
+                -webkit-background-clip: text;
+            }
+        }
+    }
+
+    .three-box {
+        height: 900px;
+        background-image: url('../image/lastbanner.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        .content-box {
+            margin: 0 auto;
+            width: 1600px;
+        }
+        .left-box {
+            .first-title {
+                margin-top: 127px;
+                height: 67px;
+                font-size: 48px;
+                font-family: PingFang SC-Regular, PingFang SC;
+                font-weight: 400;
+                color: #F5F5F5;
+                line-height: 56px;
+                -webkit-background-clip: text;
+            }
+            .line {
+                margin: 20px 0;
+                width: 112px;
+                height: 5px;
+                background: #F5F5F5;
+                border-radius: 2px;
+            }
+            .secend-title {
+                height: 45px;
+                font-size: 32px;
+                font-family: PingFang SC-Semibold, PingFang SC;
+                font-weight: 600;
+                color: #F5F5F5;
+                line-height: 38px;
+                -webkit-background-clip: text;
+            }
+        }
+        .add-mt-127 {
+            margin-top: 127px;
+        }
+        .single-box {
+            margin-bottom: 40px;
+            padding: 36px 28px 0;
+            width: 600px;
+            height: 131px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 27px 0px rgba(72,72,72,0.05);
+            border-radius: 12px;
+            .head-title {
+                margin-bottom: 15px;
+                height: 25px;
+                font-size: 18px;
+                font-family: PingFang SC-Medium, PingFang SC;
+                font-weight: 500;
+                color: #000000;
+                line-height: 21px;
+                -webkit-background-clip: text;
+            }
+            .text {
+                height: 20px;
+                font-size: 14px;
+                font-family: PingFang SC-Regular, PingFang SC;
+                font-weight: 400;
+                color: #999999;
+                line-height: 16px;
+                -webkit-background-clip: text;
+            }
+        }
+    }
+}
+
+.about-us-wrap {
+    width: 100%;
+    .head-box {
+        height: 400px;
+        background-image: url('../image/aboutbanner.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        .content-box {
+            margin: 0 auto;
+            padding-top: 41px;
+            width: 1600px;
+        }
+        .head-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .img-box {
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+        .right-title {
+            a {
+                margin: 0 60px;
+                font-size: 18px;
+                font-family: PingFang SC-Semibold, PingFang SC;
+                font-weight: 600;
+                color: #FFFFFF;
+                line-height: 21px;
+                -webkit-background-clip: text;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+        .about-us {
+            margin-top: 60px;
+            text-align: center;
+            height: 67px;
+            font-size: 48px;
+            font-family: PingFang SC-Semibold, PingFang SC;
+            font-weight: 600;
+            color: #FFFFFF;
+            line-height: 56px;
+            -webkit-background-clip: text;
+        }
+    }
+
+    .middle-box {
+        width: 100%;
+        .content-box {
+            margin: 0 auto;
+            padding-bottom: 150px;
+            width: 1600px;
+        }
+        .row {
+            margin-top: 40px;
+        }
+        .left-box {
+            li {
+                margin-bottom: 30px;
+                width: 321px;
+                height: 81px;
+                line-height: 81px;
+                text-align: center;
+                background: #FFFFFF;
+                box-shadow: 0px 1px 27px 0px rgba(72,72,72,0.16);
+                border-radius: 12px;
+            }
+            .active-li {
+                background: #1A3C90;
+                color: #fff;
+            }
+        }
+        .right-box {
+            .img-box {
+                img {
+                    width: 1240px;
+                    height: 564px;
+                }
+            }
+            .introduce {
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+.product-wrap {
+    width: 100%;
+    .head-box {
+        height: 400px;
+        background-image: url('../image/productbanner.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        .content-box {
+            margin: 0 auto;
+            padding-top: 41px;
+            width: 1600px;
+        }
+        .head-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .img-box {
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+        .right-title {
+            a {
+                margin: 0 60px;
+                font-size: 18px;
+                font-family: PingFang SC-Semibold, PingFang SC;
+                font-weight: 600;
+                color: #FFFFFF;
+                line-height: 21px;
+                -webkit-background-clip: text;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+        .about-us {
+            margin-top: 60px;
+            text-align: center;
+            height: 67px;
+            font-size: 48px;
+            font-family: PingFang SC-Semibold, PingFang SC;
+            font-weight: 600;
+            color: #FFFFFF;
+            line-height: 56px;
+            -webkit-background-clip: text;
+        }
+    }
+
+    .middle-box {
+        width: 100%;
+        .content-box {
+            margin: 0 auto;
+            padding-bottom: 150px;
+            width: 1600px;
+        }
+        .row {
+            margin-top: 40px;
+        }
+        .left-box {
+            li {
+                margin-bottom: 30px;
+                width: 321px;
+                height: 81px;
+                line-height: 81px;
+                text-align: center;
+                background: #FFFFFF;
+                box-shadow: 0px 1px 27px 0px rgba(72,72,72,0.16);
+                border-radius: 12px;
+            }
+            .active-li {
+                background: #1A3C90;
+                color: #fff;
+            }
+        }
+        .right-box {
+            padding: 55px 30px 50px;
+            width: 1253px;
+            background: #FFFFFF;
+            box-shadow: 0px 1px 27px 0px rgba(72,72,72,0.16);
+            border-radius: 12px;
+        }
+        .single-box {
+            height: 310px;
+            img {
+                width: 250px;
+                height: 250px;
+            }
+            .text {
+                margin-top: 15px;
+                text-align: center;
+                height: 25px;
+                font-size: 18px;
+                font-family: PingFang SC-Semibold, PingFang SC;
+                font-weight: 600;
+                color: #000000;
+                line-height: 21px;
+                -webkit-background-clip: text;
+            }
+        }
+    }
+}
+
+.footer-box {
+    height: 320px;
+    background: #3B3B3B;
+    .content-box {
+        margin: 0 auto;
+        width: 1600px;
+    }
+    div {
+        color: #fff;
+    }
+    .flex-box {
+        display: flex;
+        justify-content: space-between;
+    }
+    .left-box {
+        .img-box {
+            margin: 50px 0 40px;
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+        .text {
+            margin-bottom: 10px;
+            height: 20px;
+            font-size: 14px;
+            font-family: PingFang SC-Regular, PingFang SC;
+            font-weight: 400;
+            color: #FFFFFF;
+            line-height: 16px;
+            -webkit-background-clip: text;
+        }
+    }
+    .right-box {
+        .head-title {
+            margin-top: 50px;
+            margin-bottom: 16px;
+            height: 25px;
+            font-size: 18px;
+            font-family: PingFang SC-Medium, PingFang SC;
+            font-weight: 500;
+            color: #FFFFFF;
+            line-height: 21px;
+            -webkit-background-clip: text;
+        }
+        li {
+            margin-bottom: 10px;
+            height: 20px;
+            font-size: 14px;
+            font-family: PingFang SC-Regular, PingFang SC;
+            font-weight: 400;
+            color: #FFFFFF;
+            line-height: 16px;
+            -webkit-background-clip: text;
+        }
+    }
+}
+
+@media (min-width: 1920px) {
+    .container {
+        width: 1920px;
+    }
+}
+@media (min-width: 1200px) {
+    .about-us-wrap,.product-wrap {
+        .middle-box {
+            .col-md-two-point-two {
+                width: 22%;
+                float: left;
+            }
+            .col-md-nine-point-eight {
+                width: 78%;
+                float: left;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .main-wrap {
+        .head-box {
+            height: 666px;
+            .content-box {
+                margin: 0 auto;
+                padding-top: 41px;
+                padding-left: 30px;
+                width: 100%;
+            }
+            .head-title {
+                display: block;
+            }
+            .img-box {
+                margin-bottom: 40px;
+                width: 100%;
+            }
+            .right-title {
+                width: calc(100% - 30px);
+                display: flex;
+                justify-content: space-between;
+                a {
+                    margin: 0;
+                }
+            }
+            .company-slogan {
+                margin-top: 126px;
+                font-size: 24px;
+            }
+            .company-emphasis-slogan {
+                margin-top: 25px;
+                font-size: 24px;
+            }
+        }
+        .middle-box {
+            height: auto;
+            background-image: url('../image/middlebanner.png');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            .content-box {
+                margin: 0 auto;
+                width: 100%;
+            }
+            .left-box {
+                padding-left: 30px;
+            }
+            .add-margin-10 {
+                margin: 0 auto;
+            }
+        }
+
+        .three-box {
+            height: auto;
+            background-image: url('../image/lastbanner.png');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            .content-box {
+                margin: 0 auto;
+                width: 100%;
+            }
+            .left-box {
+                padding-left: 30px;
+            }
+            .col-xs-add-margin-10 {
+                padding: 0 10px;
+            }
+            .add-mt-127 {
+                margin-top: 127px;
+            }
+            .single-box {
+                padding: 36px 10px 0;
+                width: 100%;
+            }
+        }
+    }
+
+    .product-wrap {
+        width: 100%;
+        .head-box {
+            height: 400px;
+            .content-box {
+                width: 100%;
+            }
+            .head-title {
+                display: block;
+                padding-left: 30px;
+            }
+            .img-box {
+                margin-bottom: 40px;
+                width: 100%;
+            }
+            .right-title {
+                width: calc(100% - 30px);
+                display: flex;
+                justify-content: space-between;
+                a {
+                    margin: 0;
+                }
+            }
+        }
+    
+        .middle-box {
+            width: 100%;
+            .content-box {
+                width: 100%;
+            }
+            .row {
+                margin-top: 40px;
+            }
+            .left-box {
+                ul {
+                    li {
+                        margin: 0 auto 40px;
+                    }
+                }
+            }
+            .right-box {
+                width: 100%;
+            }
+            .single-box {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+
+    .about-us-wrap {
+        width: 100%;
+        .head-box {
+            height: 400px;
+            .content-box {
+                width: 100%;
+            }
+            .head-title {
+                display: block;
+                padding-left: 30px;
+            }
+            .img-box {
+                margin-bottom: 40px;
+                width: 100%;
+            }
+            .right-title {
+                width: calc(100% - 30px);
+                display: flex;
+                justify-content: space-between;
+                a {
+                    margin: 0;
+                }
+            }
+        }
+    
+        .middle-box {
+            width: 100%;
+            .content-box {
+                width: 100%;
+            }
+            .row {
+                margin-top: 40px;
+            }
+            .left-box {
+                ul {
+                    li {
+                        margin: 0 auto 40px;
+                    }
+                }
+            }
+            .right-box {
+                width: 100%;
+                .img-box {
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+                .introduce {
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+
+    .footer-box {
+        height: auto;
+        background: #3B3B3B;
+        .content-box {
+            margin: 0 auto;
+            width: 100%;
+        }
+        div {
+            color: #fff;
+        }
+        .flex-box {
+            display: block;
+        }
+        .left-box {
+            padding-left: 30px;
+            .img-box {
+                margin: 50px 0 40px;
+            }
+        }
+        .right-box {
+            padding-left: 30px;
+        }
+    }
+
+}
